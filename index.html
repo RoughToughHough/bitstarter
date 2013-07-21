@@ -3,7 +3,10 @@
  <head>
   <meta charset="utf-8">
   <title>Bitstarter</title>
-  <link type="text/css" rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-2.3.2.css">
+  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  
+  <link type="text/css" rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
+  
   <style type="text/css">
 body { padding-top: 20px;  padding-bottom: 40px; }
 .container { width: 960px; }
@@ -18,7 +21,10 @@ div.row { border: 1px solid;
 </head>
 
 <body>
-<div class="container">
+<!-- JHH - replacing this section with navbar from bootstrap sample
+	view-source:http://twitter.github.io/bootstrap/examples/starter-template.html
+	
+  <div class="container">
   <div class="row navigation">
    <div class="span2 logo"> LOGO </div>
    <div class="span6 blank"> Blank </div>
@@ -26,9 +32,32 @@ div.row { border: 1px solid;
   </div>
   <div class="row heading">
    <div class="span12">
-    <h1>Bistarter Title</h1>
+    <h1>BitStarter</h1>
    </div>
-  </div>
+  </div>  
+  -->
+  
+  <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="#">Bitstarter, now with sexy navbar!</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+	
+
   <div class="row subheading">
    <div class="span12">
     <p class="lead">This is my first bitstarter! </p>
